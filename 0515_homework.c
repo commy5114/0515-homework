@@ -2,21 +2,21 @@
 #include<stdlib.h>
 #include<time.h>
 
-void S0(int *data);
-void S1(int *data1);
-void S2(int *data2);
+void SampleZero(int *data);
+void SampleOne(int *data1);
+void SampleSecond(int *data2);
 
 int main(void)
 {
 	int a[10];
 	
-	S0(a);
-	S1(a);
-	S2(a);
+	SampleZero(a);
+	SampleOne(a);
+	SampleSecond(a);
 }
 
 
-void S0(int *data)
+void SampleZero(int *data)
 {
 	int i,j,k;
 	
@@ -43,7 +43,7 @@ void S0(int *data)
 	printf("\n");
 }
 
-void S1(int *data1)
+void SampleOne(int *data1)
 {
 	int i,j,temp;
 	printf("由大到小:");
@@ -63,7 +63,7 @@ void S1(int *data1)
 
 }
 
-void S2(int *data2)
+void SampleSecond(int *data2)
 {
 	int i,x,value;
 	
