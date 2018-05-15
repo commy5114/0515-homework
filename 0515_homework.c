@@ -16,6 +16,7 @@ int main(void)
 }
 
 
+/* 亂數產生 */
 void SampleZero(int *data)
 {
 	int i,j,k;
@@ -42,7 +43,7 @@ void SampleZero(int *data)
 	}
 	printf("\n");
 }
-
+/* 泡沫排序 */ 
 void SampleOne(int *data1)
 {
 	int i,j,temp;
@@ -62,7 +63,7 @@ void SampleOne(int *data1)
 	}
 
 }
-
+/* 搜尋法 */
 void SampleSecond(int *data2)
 {
 	int i,x,value;
@@ -83,6 +84,6 @@ void SampleSecond(int *data2)
 	
 	if (x==10)
 	{
-		printf ("搜尋不到值");
+		printf ("搜尋不到值"); /*不合理數值*/ 
 	}
 }
